@@ -1,7 +1,12 @@
-import React from 'react'
+import GlobalStyle from "./styles/GlobalStyle";
+import Header from "./components/block/Header";
 
 export default function App() {
   return (
-    <div>App</div>
-  )
+    <>
+      <GlobalStyle />
+      <Header />
+    </>
+  );
 }
+
